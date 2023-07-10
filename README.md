@@ -16,6 +16,6 @@ Since this system was created with SaaS model of software distribution in mind, 
 
 The system was built on Atom (and VS code) text-editor. HTML, CSS and vanilla JS is used for front-end. PHP handles all the back-end operations. Web-hosting and database hosting is done by XAMPP. 
 
-This project is in no way a perfect system thereforem, additional functionalities can be added. Modifications can be done. I had a fun time building this. Good Luck. 
+This project is in no way a perfect system therefore, additional functionalities can be added. Modifications can be done. I had a fun time building this. Good Luck. 
 
 
