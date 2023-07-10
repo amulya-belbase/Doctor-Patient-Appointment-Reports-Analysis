@@ -1,0 +1,171 @@
+body {
+    background-color: #005761;
+   background-image: url("../assets/images/hero-bg.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+  }
+  
+  .logo{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 5%;
+    width: 20%;
+    padding-block: 25px;
+    z-index: 0;
+  }
+  .hero-banner{
+    margin-left: -205px;
+    margin-top: 83px;
+  }
+  
+  #header1 {
+    position: absolute;
+    font-size: 4em;
+    color: white;
+    font-family: Oswald;
+    font-weight: bold;
+    position: absolute;
+    left: 75%;
+    top: -15px;
+    margin-left: -20px;
+  }
+  
+  #signup{
+    position: absolute;
+    left: 68%;
+    top: 18%;
+    width: 20%;
+    height: 450px;
+    border: 10px solid #004047;
+    overflow: hidden;
+    border-radius: 1em;
+    padding: 25px;
+    padding-top: 10px;
+    padding-right: 35px;
+    overflow-y:auto;
+  }
+  
+  #namecss, #emailcss, #deptcss, #passwordcss, #passwordconfirmcss {
+    color: white;
+    font-family: Oswald;
+    font-size: 18px;
+    padding: 2px;
+    margin: 5px auto;
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+  #namecss input{
+    background-color: white;
+    height: 25px;
+    width: 250px;
+    padding-left: 10px;
+    font-size:18px;
+    overflow: hidden;
+    border-radius:0.5em;
+    font-family: Oswald;
+  }
+  
+  #emailcss input {
+   background-color: white;
+   height: 25px;
+   width: 250px;
+   padding-left: 10px;
+   font-size:18px;
+   overflow: hidden;
+   border-radius:0.5em;
+   font-family: Oswald;
+  }
+  
+  #dept input{
+    background-color:#FFF;
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+    font-size:18px;
+    overflow: hidden;
+    border-radius:0.5em;
+    font-family: Oswald;
+    margin-bottom: 0px;
+  }
+
+  #passwordcss input{
+    background-color:#FFF;
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+    font-size:18px;
+    overflow: hidden;
+    border-radius:0.5em;
+    font-family: Oswald;
+    margin-bottom: 0px;
+  }
+  
+  #passwordconfirmcss input{
+    background-color:#FFF;
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+    font-size:18px;
+    overflow: hidden;
+    border-radius:0.5em;
+    font-family: Oswald;
+    margin-bottom: 0px;
+  }
+  
+  .fa, .fas{
+      color: white;
+      font-size: 15px;
+      font-weight: 400;
+      float: right;
+      margin-left: 120px;
+      margin-top: 2px;
+      position: absolute;
+      cursor: pointer;
+  }
+  
+  button{
+  
+    color: white;
+    font-family: Oswald;
+    font-size: 1.2rem;
+    background-color: #009CAD;
+    border: none;
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    }
+  button:hover{
+    cursor: pointer;
+    background-color: #004047;
+    transform: translateY(-2px)
+  }
+  
+  #login{
+    color: white;
+    font-family: Oswald;
+    font-size: 1.2rem;
+    padding: 3px;
+    width: 70%;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 39%;
+  }
+  
+  
+  @media (max-width: 700px) {     /* Desktop-first approach => max-width, mobile-first approach => min-width */
+    #header1, #signup{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width:50%;
+      height: auto;
+    }
+  }
+  

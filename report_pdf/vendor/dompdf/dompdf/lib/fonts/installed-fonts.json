@@ -1,0 +1,11 @@
+{
+    "oswald": {
+        "500": "C:\\xampp\\htdocs\\final_project\\report_pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/oswald_500_63be6d9b63141214fd96efee382ec80b",
+        "bold": "oswald_bold_f20a7735007d41482300a549a47f31e7"
+    },
+    "rubik": {
+        "normal": "C:\\xampp\\htdocs\\final_project\\report_pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/rubik_normal_6643e311ffcc4cc0335687aae49541dc",
+        "500": "C:\\xampp\\htdocs\\final_project\\report_pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/rubik_500_ab27076a46fa071097a01119cdaa42e8",
+        "bold": "rubik_bold_eab0fa0afd9efac830de7b4700d577f6"
+    }
+}

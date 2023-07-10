@@ -1,0 +1,460 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /*font-family: Oswald;*/
+  font-size: 20px;
+  text-transform: none;
+  text-decoration: none;
+  scroll-behavior: smooth !important;
+}
+
+body{
+  min-height: 100vh;
+  background: url(./a.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Oswald;
+}
+
+header{
+  position: fixed;
+  top:0; left: 0; right: 0;
+  background: #00636E;
+  color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 0px 6%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+
+
+
+header .logo{
+  margin-top: 8px;
+}
+
+.navbar ul{
+  list-style: none;
+}
+
+.navbar a{
+  color: white;
+}
+.navbar ul li{
+  position: relative;
+  float: left;
+  padding-right: 15px;
+}
+
+.navbar ul li a{
+    background: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+.navbar ul li a:hover{
+  background: #737373;
+  color: white;
+}
+
+.navbar .button{
+  padding: 0px 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -2px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  font-family: Oswald;
+  cursor: pointer;
+  color: black;
+  background: white;
+  border: 1px solid white;
+}
+.navbar .button:hover{
+  background: #00636E;
+  color: #fff;
+  transition: 0.8s;
+}
+
+
+.roll{
+  margin-top: 6%;
+  background-color: white;
+  color: black;
+  border: 1px solid #00636E;
+  border-radius: 0.2rem;
+  padding: 5px;
+  margin-left: 2px;
+  display: flex;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+.roll p{
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 0px;
+  width: 200px;
+  background-color: #00636E;
+  color: white;
+  border: 1px solid #00636E;
+  border-radius: 0.2rem;
+}
+.roll marquee{
+  padding-top: 2px;
+  margin-left: 0.5%;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  margin-top: 1%;
+  max-width: 60%;
+  position: relative;
+  margin-left: 20%;
+}
+.mySlides img{
+  height: 400px;
+  width: 300px;
+  border-radius: 0.5rem;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 20;
+}
+
+/* The dots/bullets/indicators */
+.dotsection{
+  margin-top: 0px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.description{
+  background: #E6E6E6;
+  color: black;
+  font-family: Roboto Condensed;
+  border-radius: 0.2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description ul{
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 2rem;
+}
+
+.diagnosis{
+  background: #E6E6E6;
+  color: black;
+  font-family: Fira, sans-serif;
+  border-radius: 0.2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.diagnosis ul{
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 2rem;
+}
+
+
+
+.users{
+  background: #E6E6E6;
+  border-radius: 0.2rem;
+  margin: 10px 10px 10px 10px;
+  overflow-x: scroll;
+}
+.users h2{
+  font-size: 25px;
+  padding: 10px;
+  border-bottom: 2px solid #004047;
+}
+
+.users .card{
+  display: inline-block;
+  width: 25%;
+  margin: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+}
+.users .card img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.users .card h4{
+  text-transform: uppercase;
+}
+.users .card p{
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.users table{
+  margin: auto;
+}
+.users .per span{
+  padding: 5px;
+  border-radius: 10px;
+  background: #dfdfdf;
+}
+.users td{
+  font-size: 14px;
+  padding-right: 0px;
+}
+
+
+
+.gallery{
+    padding: 0;
+    background: #E6E6E6;
+    margin: 20px 10px 10px 10px;
+    border-radius: 0.2rem;
+}
+
+.gallery h2 {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #004047;
+}
+
+.main-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+   padding: 30px;
+}
+.inner-gallery{
+    flex: 1 1 300px;
+
+}
+.inner-gallery img{
+    width: 100%;
+    transition: .3s;
+}
+.inner-gallery img:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+.container{
+  padding: 0;
+  background: #E6E6E6;
+  margin: 20px 10px 10px 10px;
+  border-radius: 0.2rem;
+}
+.container h2 {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #004047;
+}
+.articles{
+  display: flex;
+  padding: 20px;
+}
+.individualarticles{
+  font-family: 'Fira Sans', sans-serif !important;
+  background-color: #CCCCCC;
+  border: 2px solid #00636E;
+  border-radius: 0.2rem;
+  padding: 20px;
+  margin-right: 50px;
+  border-radius: 0.5rem;
+}
+#firstarticle{
+  margin-left: 15px;
+}
+#lastarticle{
+  margin-right: 20px;
+}
+.individualarticles h3{
+  padding-bottom: 10px;
+}
+.individualarticles p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.individualarticles a{
+  color: #00636E;
+  text-decoration: underline;
+}
+
+
+/* ====================================== footer ===================================*/
+.footercontainer {
+  background-color: #00636E;
+  color: white;
+  margin-top: 50px;
+  font-family: 'Fira Sans', sans-serif !important;
+}
+.footerelement {
+  display: flex;
+
+  padding-bottom: 10px;
+}
+.footerelement .leftmap h2 {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  text-decoration: underline;
+}
+
+.leftmap{
+  width: 50%;
+  padding-left: 10px;
+}
+.leftmap iframe{
+  border-radius: 0.5rem;
+}
+
+ .map{
+  display: flex;
+  margin-top: 10px;
+  border-radius: 0.8rem;
+  width:100%;
+
+}
+.map iframe{
+  width: 70%;
+  width: 400px;
+  height: 250px;
+}
+.location{
+  width: 30%;
+}
+.location h3{
+  margin-left: 30%;
+}
+.location p{
+  margin-left: 30%;
+}
+.rightfooter{
+  width: 50%;
+  text-align: right;
+}
+.footerelement .contactfooter h2 {
+  font-size: 25px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: underline;
+}
+.contactfooter p{
+  padding: 2px;
+  padding-right: 10px;
+}
+.contactfooter a{
+  color: white;
+}
+.contactfooter a:hover{
+  color: #27D2E6;
+  cursor: pointer;
+}
+.allrights h2{
+  font-size: 20px;
+  padding: 80px 10px 0 10px;
+}
+.allrights p{
+  padding: 2px;
+  padding-right: 10px;
+}

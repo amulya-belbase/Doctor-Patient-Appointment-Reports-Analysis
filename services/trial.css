@@ -1,0 +1,74 @@
+*{
+  font-family: Oswald;
+}
+body{
+  background-color: #e2e2e2;
+}
+#top{
+  background-color: white;
+  display: flex;
+  margin-top: 15px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 0.5rem;
+  width: 50%;
+}
+.topleft p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+.topright p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  border-left: 5px solid #00636E;
+  padding-left: 30px;
+}
+.overall{
+  margin-top: 20px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0.5rem;
+}
+#hemo,#chol,#red{
+  border-bottom: 5px solid #00636E;
+  margin-right: 0px;
+  width: 400px;
+  height: 300px;
+  margin-left: 33px;
+  border-radius: 0.5rem;
+}
+.bottom{
+  background: white;
+  margin-top: 20px;
+  border-radius: 0.5rem;
+  padding: 10px 10px 10px 10px;
+}
+.bottom p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.bottom ul{
+  margin-top: 5px;
+}
+#disclaimer, #disdis{
+  text-decoration: none;
+}
+#disclaimer{
+  padding-top: 10px;
+  color: red;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: underline;
+}
+#disdis{
+  font-size: 16px;
+}
+.bottom a{
+  color: #004047;
+  font-size: 16px;
+}

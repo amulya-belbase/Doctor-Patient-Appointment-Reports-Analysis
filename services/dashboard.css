@@ -1,0 +1,380 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Oswald;
+}
+body{
+  background: #e2e2e2;
+}
+nav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 90px;/* ================ for transition */
+  background: white;
+  overflow: hidden;
+  transition: 1s;
+}
+nav:hover{
+  width: 280px;
+  transition: 1s;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    background-color: #00636E;
+}
+.logo:hover{
+  background-color: #004047;
+}
+.logo img{
+  width: 170px;
+  height: auto;
+}
+
+a{
+  position: relative;
+  width: 280px;
+  font-size: 18px;
+  color: rgb(85, 83, 83);
+  display: table;
+  padding: 10px;
+  padding-left: 20px;
+}
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 10px;
+  margin-left: 10px;
+}
+a:hover{
+  background: #eee;
+  background: #00636E;
+  color: white;
+}
+a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+
+.container{
+  display: flex;
+}
+.main{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+.main-top{
+  display: flex;
+  width: 100%;
+}
+
+.main-top .apponicon{
+  position: absolute;
+  padding-left: 91%;      /* side tira laaney item */
+  margin-top: -10px;
+}
+.apponicon i {
+  width: 20px;
+  height: 16px;
+  color: #6e6d6d;
+  cursor: pointer;
+}
+.forlogin{
+  width: auto;
+  margin-right: 30%;
+  padding: 0;
+  text-align: center;
+  background: #00636E;
+  height: auto;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.apponicon ul{
+  list-style: none;
+}
+
+.apponicon ul li{
+  position: absolute;
+  background: transparent;
+  color: #6e6d6d;
+  padding: 0px;
+  align-items: center;
+  width: 115px;
+  right: 0px;
+  padding: 2px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.apponicon ul li a{
+  position: absolute;
+  font-weight: 500;
+  width: 115px;
+  height: auto;
+  padding: 3px;
+  font-size: 16px;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 400ms ease-in-out, transform 400ms ease-in-out;
+}
+.apponicon ul li a:hover{
+    background: transparent;
+    color: black;
+    text-decoration: underline;
+}
+
+.apponicon i :focus-within > ul li a,
+.apponicon i :hover > ul li a {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.apponicon:focus-within > ul li a,
+.apponicon:hover > ul li a{
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.main .users{
+  width: 100%;
+}
+
+.users .card{
+  display: inline-block;
+  width: 25%;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+}
+.users .card img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.users .card h4{
+  text-transform: uppercase;
+}
+.users .card p{
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.users table{
+  margin: auto;
+}
+.users .per span{
+  padding: 5px;
+  border-radius: 10px;
+  background: #dfdfdf;
+}
+.users td{
+  font-size: 14px;
+  padding-right: 0px;
+}
+
+.users .card button{
+  width: 100%;
+  margin-top: 8px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #00636E;
+}
+.users .card button:hover{
+  background: #00636E;
+  color: #fff;
+  transition: 0.5s;
+}
+.doctor{
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.doctor-list h1{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.doctor-list{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+  min-width: 100%;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+table thead tr{
+  color: #fff;
+  background: #00636E;
+  text-align: center;
+  font-weight: bold;
+}
+.table th,
+.table td{
+  padding: 12px 15px;
+}
+.table tbody tr{
+  border-bottom: 3px solid #ddd;
+  text-align: center;
+}
+.table tbody tr:nth-of-type(even){    /* for even row number, change color to this*/
+  background: #f3f3f3;
+}
+.table tbody tr.active{   /* if active, change to this color*/
+  font-weight: bold;
+  color: #00636E;
+}
+.table tbody tr:last-of-type{   /* fpr last row, change to this border*/
+  border-bottom: 2px solid #00636E;
+}
+
+
+.table .button{
+  padding: 6px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #00636E;
+}
+.table .button:hover{
+  background: #00636E;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 500ms;
+  visibility: hidden;
+}
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+
+}
+.wrapper{
+  margin: 5px auto;
+  padding: 20px;
+  background: #e7e7e7;
+  border-radius: 5px;
+  width: 30%;
+  color: #00636E;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.wrapper h2{
+  margin-top: 0;
+  color:#00636E;
+}
+
+.wrapper .close{
+  position: absolute;
+  top: 5px;
+  padding: 0px;
+  width: 50px;
+  right: 0px;
+  top: 15px;
+  padding-left: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+.wrapper .content{
+  max-height: 30%;
+  overflow: auto;
+}
+
+/* form design */
+
+.container{
+  border-radius: 5px;
+  background-color: #e7e7e7;
+
+}
+.container #appointment{
+  width: 150px;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  height: 40px;
+  color: black;
+}
+form label{
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  color: #00636E;
+}
+input[type=text], textarea{
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  resize: vertical;
+  color: black;
+}
+.container #formsub{
+  background-color: #00636E;
+  color: white;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}

@@ -1,0 +1,112 @@
+body{
+  font-family: Oswald;
+  box-sizing: border-box;
+}
+.towrap{
+  height: 100vh;
+  
+  background-color: #006E7A;
+}
+.overlay{
+  margin-top: 8%;
+  position: fixed;
+  background-color: #006E7A;
+  width: 100%;
+}
+.wrapper{
+  height: 100%;
+  margin: 2px auto;
+  padding: 20px;
+  padding-top: 10px;
+  background: #e7e7e7;
+  border-radius: 5px;
+  width: 30%;
+  color: #00636E;
+  position: relative;
+  font-size: 23.5px;
+}
+.wrapper h2{
+  margin-top:0px;
+  margin-left: 0;
+  padding-left: 5px;
+  color:#00636E;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.wrapper .close{
+  position: absolute;
+  padding: 0px;
+  width: 50px;
+  right: 0px;
+  top: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.2rem;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+
+}
+.wrapper .close:hover{
+  background-color: #00636E;
+  color: white;
+  cursor: pointer;
+}
+.wrapper .content{
+  max-height: 30%;
+  overflow: auto;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#popup2{
+  padding-top: 0px;
+}
+form label{
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  color: #00636E;
+  margin-top: 0px;
+}
+#appointment{
+  width: 150px;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  height: 40px;
+  color: black;
+  font-family: Oswald;
+}
+
+input[type=text], textarea{
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 18px;
+  resize: vertical;
+  color: black;
+  font-family: Oswald;
+}
+ #formsub{
+  background-color: #00636E;
+  font-family: Oswald;
+  color: white;
+  padding: 15px 50px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
