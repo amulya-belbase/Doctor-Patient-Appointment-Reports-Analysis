@@ -1,6 +1,6 @@
 # Doctor-Patient Appointment, Report, Analytics
 
-This project (was final-year graduation project) aims to provide users with an appointment management system with some additional functionalities. Homepage is DocLab open-source code. Pictures used are also from the same project. 
+This project (was final-year graduation project) aims to provide users with an appointment management system with some additional features. Homepage is DocLab open-source code. Pictures used are also from the same project. (https://github.com/codewithsadee/doclab)
 
 The user can perform CRUD operations on the appointments. They can filter the doctors list based on department and gender. 
 
@@ -22,6 +22,6 @@ Since this system was created with SaaS model of software distribution in mind, 
 
 The system was built on Atom (and VS code) text-editor. HTML, CSS and vanilla JS is used for front-end. PHP handles all the back-end operations. Web-hosting and database hosting is done by XAMPP. 
 
-This project is in no way a perfect system therefore, additional functionalities can be added. Modifications can be done. I had a fun time building this. Good Luck. 
+You can reach me on instagram: @amulya_belbase. This project is in no way a perfect system, therefore, additional functionalities can be added. Modifications can be done. I had a fun time building this. Good Luck. 
 
 
