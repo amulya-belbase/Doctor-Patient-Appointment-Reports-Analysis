@@ -12,6 +12,12 @@ They can change their user information (email, password).
 
 Based on the appointments a user has made, related departments are also recommended which can take the user to that department's website that contains faculty, facilities, etc. information. 
 
+For Doctor's interface:
+  A doctor can see all the appointments made by the patients with that doctor. Can also see the list of doctors (department specific as well as the entire list).
+
+For Admin Interface:
+  Right now, the only admin task is to insert the report data into the database. The for_lab page isn't "front-end modified" i.e., the for_lab.html page is styled using water.css. 
+  
 Since this system was created with SaaS model of software distribution in mind, subscription module is also integrated to the system. A user can buy/renew subscription. Validation mechanism is applied to the module too. 
 
 The system was built on Atom (and VS code) text-editor. HTML, CSS and vanilla JS is used for front-end. PHP handles all the back-end operations. Web-hosting and database hosting is done by XAMPP. 
