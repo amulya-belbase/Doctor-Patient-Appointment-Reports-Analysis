@@ -26,7 +26,27 @@ System structure looks like this:
 
 ![system structure](https://github.com/amulya-belbase/Doctor-Patient-Appointment-Reports-Analysis/assets/138869398/e1f99c84-336b-4b71-8b64-1a9b05a7e7e2)
 
+Book appointment pop-up:
+
+![appointments page 2](https://github.com/amulya-belbase/Doctor-Patient-Appointment-Reports-Analysis/assets/138869398/62cbf0a8-fdfd-4411-9d3f-12626effe884)
+
+Filter list: 
+
+![filter 4](https://github.com/amulya-belbase/Doctor-Patient-Appointment-Reports-Analysis/assets/138869398/5da19d36-cd38-4802-a8b3-6c2034761361)
+
+Reports page: 
+
+![reports 1](https://github.com/amulya-belbase/Doctor-Patient-Appointment-Reports-Analysis/assets/138869398/4a9919d9-74b7-4918-ad03-7e3d5793894c)
+
+Analytics page: 
+
+![analytics 1](https://github.com/amulya-belbase/Doctor-Patient-Appointment-Reports-Analysis/assets/138869398/045209a7-3670-472e-8831-e4851d17c0e9)
+
+Doctor's Dashboard:
+
+![doctor appointment view](https://github.com/amulya-belbase/Doctor-Patient-Appointment-Reports-Analysis/assets/138869398/6a28e173-00b5-4323-8020-06eefb98d70e)
+
+![doctor dashboard](https://github.com/amulya-belbase/Doctor-Patient-Appointment-Reports-Analysis/assets/138869398/a2bdb474-e1a3-4622-b8cf-dda79ec3478c)
+
 
 You can reach me on instagram: @amulya_belbase. This project is in no way a perfect system, therefore, additional functionalities can be added. Modifications can be done. I had a fun time building this. Good Luck. 
-
-
