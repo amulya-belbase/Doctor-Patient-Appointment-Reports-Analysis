@@ -10,7 +10,7 @@ This system also contains an analytics page that displays some statistical data 
 
 They can change their user information (email, password). 
 
-Based on the appointments a user has made, related departments are also recommended which can take the user to that department's website that contains faculty, facilities, etc. information. 
+Based on the appointments made by a user, related departments are also recommended which can take the user to that department's website that contains faculty, facilities, contact, etc. information. 
 
 For Doctor's interface:
   A doctor can see all the appointments made by patients with that doctor. Can also see the list of doctors (department specific as well as the entire list).
