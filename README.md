@@ -13,14 +13,19 @@ They can change their user information (email, password).
 Based on the appointments a user has made, related departments are also recommended which can take the user to that department's website that contains faculty, facilities, etc. information. 
 
 For Doctor's interface:
-  A doctor can see all the appointments made by the patients with that doctor. Can also see the list of doctors (department specific as well as the entire list).
+  A doctor can see all the appointments made by patients with that doctor. Can also see the list of doctors (department specific as well as the entire list).
 
 For Admin Interface:
   Right now, the only admin task is to insert the report data into the database. The for_lab page isn't "front-end modified" i.e., the for_lab.html page is styled using water.css. 
   
-Since this system was created with SaaS model of software distribution in mind, subscription module is also integrated to the system. A user can buy/renew subscription. Validation mechanism is applied to the module too. 
+Since this system was created with SaaS model of software distribution in mind, subscription module is also integrated into the system. A user can buy/renew subscription. Validation mechanism is also applied to the module. 
 
 The system was built on Atom (and VS code) text-editor. HTML, CSS and vanilla JS were used for front-end. PHP handles all the back-end operations. Web-hosting and database-hosting is done by XAMPP. 
+
+System structure looks like this: 
+
+![system structure](https://github.com/amulya-belbase/Doctor-Patient-Appointment-Reports-Analysis/assets/138869398/e1f99c84-336b-4b71-8b64-1a9b05a7e7e2)
+
 
 You can reach me on instagram: @amulya_belbase. This project is in no way a perfect system, therefore, additional functionalities can be added. Modifications can be done. I had a fun time building this. Good Luck. 
 
